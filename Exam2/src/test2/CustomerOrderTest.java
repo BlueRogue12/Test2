@@ -1,4 +1,4 @@
-// package test2;
+package test2;
 
 import static org.junit.Assert.*;
 
@@ -21,11 +21,6 @@ public class CustomerOrderTest {
         inventory.addItem("Garlic Bread", 15);
     }
     
-    // ToDo: Remove this test case before submission
-    @Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	// ToDo: Test placing a valid order
 	// Add items to the order, verify the number of items, and check if the total cost is calculated correctly.
