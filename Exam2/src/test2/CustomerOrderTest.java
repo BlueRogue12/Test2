@@ -73,5 +73,4 @@ public class CustomerOrderTest {
 	    order.setStatus("Ready");
 	    assertEquals("Ready", order.getStatus());
 	}
-
 }
